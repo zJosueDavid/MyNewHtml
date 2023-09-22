@@ -1,18 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¿Qué es la Inteligencia Artificial? </title>
+    <meta charset="utf-25">
+    <meta name="description" content="Esta página web de ejemplo">
+    <meta name="Keywords" content="HTML.CSS.JAVASCRIPT">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.cf3089be0a2387032d6a84aa5bcf7768?rik=o1%2fNGonZHTjvJA&pid=ImgRaw&r=0">
+    <title>
+        Professional Web Page
+    </title>
 </head>
 <body>
-    <h1>¿Qué es la Inteligencia Artificial?</h1>
-    <h2>¿Somos conscientes de los retos y principales aplicaciones de la Inteligencia Artificial?
-    </h2>
-    <hr color="resulta">
+    Hola mundo
+    <br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ab nemo nihil, accusantium omnis neque quisquam quidem itaque, totam iste rerum perferendis assumenda odio iure, soluta harum at voluptatibus accusamus.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus ex eius consequatur tempora, aliquid, deserunt voluptas facere delectus nam dolore, distinctio quibusdam exercitationem aliquam numquam veritatis rem quaerat iste dolores.</p>
+    <hr size="S" color="blue">
+    <p><b> Josue Castillo</b></p>
+    <p><i>Yonometocabrabiches</i></p>
+    <p><b>Texto en negritas</b></p>
+    <p><i>Texto en cursiva</i></p>
+    <p><em>Texto en énfasis</em></p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit ipsa facere quo nostrum odio, impedit quibusdam? Id maxime sed, dicta reprehenderit, tenetur fugiat maiores veritatis eaque natus minus tempora.</p>
-    
-    <p><i>La Inteligencia Artificial (IA)</i> es la combinación de algoritmos planteados con el propósito de crear máquinas que presenten las mismas capacidades que el ser humano. Una tecnología que todavía nos resulta lejana y misteriosa, pero que desde hace unos años está presente en nuestro día a día a todas horas.    </p>
+    <h3>Listas ordenadas y desordenadas</h3>
+    <h4>Listas ordenadas</h4>
+    <ol type="I">
+        <li>Elemento</li>
+        <li>Elemento
+            <ol type="I">
+                <li>Elemento 2</li>
+                <li>Elemento 2</li>
+                <li>Elemento 2</li>
+            </ol>
+        </li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ol>
+    <h4>Listas desordenadas</h4>
+    <ul>
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento
+            <ul>
+                <li>Elemento</li>
+                <li>Elemento</li>
+                <li>Elemento</li>
+            </ul>
+        </li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ul>
+    <h4>Listas Descriptivas</h4>
+    <dl>
+        <dt>Nombre</dt>
+        <dd>Josue</dd>
+        <dt>Apellido</dt>
+        <dd>Castillo</dd>
+        <dt>Cargo</dt>
+        <dd>Estudiante</dd>
+    </dl>
+    <h3>Imágenes</h3>
+    <img src="https://th.bing.com/th/id/R.ef66045feda93a1a464b146648b780a8?rik=l48gih8uYV3r9Q&pid=ImgRaw&r=0" alt="Descripción de la imagen" width="300" height="400">
+    <br>
+    <br>
+    <marquee><img src="https://bs.uenicdn.com/blog/wp-content/uploads/2018/04/giphy.gif" alt="Descripción" width="300" height="200"></marquee>
 </body>
+
+<h3>Tablas</h3>
+<table border="1">
+    <thead>
+        <tr>
+            <th colspan="8">Horario de Clases</th>
+        </tr>
+        <tr>
+            <th>Asignaturas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Programación web</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+            <td rowspan="3">Sin clases</td>
+            <td rowspan="3">Sin clases</td>
+        </tr>
+        <tr>
+            <td>Interfaz de Usuario</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+            <td>14:00 a 16:00</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Formularios</h3>
+<form action="antion.php">
+    <fieldset>
+        <legend>Formulario de datos</legend>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" placeholder="Escribe tu nombre por favor" required>
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" placeholder="Escribe tu correo por favor">
+        <label for="Password">Password</label>
+        <input type="Password" id="Password" placeholder="Escribe tu Password por favor">
+        <hr>
+        <label for="Fecha">Fecha</label>
+        <input type="date" name="Fecha" id="Fecha">
+        <label for="Tiempo">Hora</label>
+        <input type="time" id="Tiempo">
+        <label for="Number">Cantidad</label>
+        <input type="Number" min="0" max="10" id="Numero">
+        <input type="submit" value="Enviar">
+        <fieldset>
+            <legend>Datos adicionales</legend>
+            <label for="file">Sube un archivo</label>
+            <input type="file" id="file">
+            <label for="color">Selecciona un color</label>
+            <input type="color" id="color">
+            <input type="reset" value="Restablecer">
+            <input type="submit" value="Enviar">
+        </fieldset>
+        <hr>
+        <label for="Selecciona una opción"></label>
+    </fieldset>
+</form>
+
 </html>
